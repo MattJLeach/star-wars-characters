@@ -1,0 +1,20 @@
+.search-input {
+  display: inline-block;
+  margin: 10px 40%;
+  width: 20%;
+  padding: 10px;
+  border: 1px solid gold;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  background: transparent;
+  color: #fff;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: #fff;
+  }
+}

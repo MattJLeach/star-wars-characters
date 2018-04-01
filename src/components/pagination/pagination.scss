@@ -1,0 +1,33 @@
+.pagination-container {
+  text-align: center;
+  color: #fff;
+
+  button {
+    border: 1px solid gold;
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 5px 10px;
+    background: transparent;
+    color: #fff;
+    transition: 1s all;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      background: #f4f4f4;
+      color: #000;
+    }
+
+    &:disabled {
+      border-color: #ddd;
+      cursor: not-allowed;
+
+      &:hover {
+        background: transparent;
+        color: #fff;
+      }
+    }
+  }
+}
